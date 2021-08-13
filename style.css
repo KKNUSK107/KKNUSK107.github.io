@@ -62,4 +62,21 @@ body {
     flex-direction: column;
     /* margin: 0 2px; */
   }
-  
+  .profil {
+    display: flex; 
+    justify-content: 
+    space-around; 
+    margin-top: 200px;
+  }
+  .isi {
+    margin-top: 2em;
+  }
+  @media only screen and (max-width: 600px) {
+    .bg img{
+      width: 95vw;
+    }
+    .profil {
+      margin-top: 0px;
+      flex-direction: column;
+    }
+  }
